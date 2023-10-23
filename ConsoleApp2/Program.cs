@@ -5,7 +5,7 @@
     {
         static void Main(string[] args)
         {
-            
+            S2023102302.Run();
         }
     }
 }
