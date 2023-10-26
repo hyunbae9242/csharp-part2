@@ -3,7 +3,9 @@ namespace ConsoleApp2;
 public class S2023102302 {
     public static void Run()
     {
-        // 
+        Board board = new Board();
+        board.Initialize();
+        
         Console.CursorVisible = false;
 
         const int WAIT_TICK = 1000 / 30;
