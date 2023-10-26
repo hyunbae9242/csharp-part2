@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e519da38-2f97-453c-b66d-075550ee2152" name="변경" comment="20231026 study">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp2/S2023102601.cs" afterDir="false" />
+    <list default="true" id="e519da38-2f97-453c-b66d-075550ee2152" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/ConsoleApp2/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp2/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp2/Board.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp2/S2023102302.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp2/S2023102302.cs" afterDir="false" />
     </list>
@@ -35,31 +36,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Administrator/RiderProjects/csharp-part2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CodeLensConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/minthb/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/minthb/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
-      &quot;/Users/minthb/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Administrator\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Administrator\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\Administrator\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ConsoleApp2" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/ConsoleApp2/bin/Debug/net7.0/ConsoleApp2" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ConsoleApp2/bin/Debug/net7.0/ConsoleApp2.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ConsoleApp2/bin/Debug/net7.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -88,6 +90,7 @@
       <updated>1698059202077</updated>
       <workItem from="1698059203170" duration="5772000" />
       <workItem from="1698121171095" duration="5791000" />
+      <workItem from="1698327334938" duration="5331000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -137,25 +140,6 @@
     <MESSAGE value="20231023 study" />
     <MESSAGE value="20231026 study" />
     <option name="LAST_COMMIT_MESSAGE" value="20231026 study" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleApp2/Board.cs</url>
-          <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleApp2/Board.cs" initialLine="15" containingFunctionPresentation="메서드 'Initialize'">
-            <startOffsets>
-              <option value="297" />
-            </startOffsets>
-            <endOffsets>
-              <option value="310" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

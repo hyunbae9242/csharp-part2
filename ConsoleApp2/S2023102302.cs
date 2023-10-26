@@ -4,7 +4,9 @@ public class S2023102302 {
     public static void Run()
     {
         Board board = new Board();
-        board.Initialize(25);
+        Player player = new Player();
+        board.Initialize(25, player);
+        player.Initialize(1,1,board.Size -2, board.Size -2, board);
         
         Console.CursorVisible = false;
 
@@ -18,13 +20,14 @@ public class S2023102302 {
             int currentTick = System.Environment.TickCount;
             if(currentTick - lastTick < WAIT_TICK)
                 continue;
+            int deltaTick = currentTick - lastTick;
             lastTick = currentTick;
             #endregion
             
             // 입력
             
             // 로직
-            
+            player.Update(deltaTick);
             // 렌더링
             Console.SetCursorPosition(0,0);
             board.Render();
