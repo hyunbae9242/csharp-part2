@@ -4,12 +4,11 @@ public class S2023102302 {
     public static void Run()
     {
         Board board = new Board();
-        board.Initialize();
+        board.Initialize(25);
         
         Console.CursorVisible = false;
 
         const int WAIT_TICK = 1000 / 30;
-        const char CIRCLE = '\u25cf';
 
         int lastTick = 0;
         
@@ -28,16 +27,9 @@ public class S2023102302 {
             
             // 렌더링
             Console.SetCursorPosition(0,0);
+            board.Render();
 
-            for (int i = 0; i < 25; i++)
-            {
-                for (int j = 0; j < 25; j++)
-                {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.Write(CIRCLE);
-                }
-                Console.WriteLine();
-            }
+            
         }
     }
 }
