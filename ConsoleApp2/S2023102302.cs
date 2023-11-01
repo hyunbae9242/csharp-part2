@@ -5,7 +5,7 @@ public class S2023102302 {
     {
         Board board = new Board();
         Player player = new Player();
-        board.Initialize(25, player);
+        board.Initialize(55, player);
         player.Initialize(1,1, board);
         
         Console.CursorVisible = false;
