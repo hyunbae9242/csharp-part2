@@ -5,19 +5,20 @@
     <projectFile>ConsoleApp3/ConsoleApp3.csproj</projectFile>
     <projectFile>ConsoleApp4/ConsoleApp4.csproj</projectFile>
     <projectFile>ConsoleApp5/ConsoleApp5.csproj</projectFile>
+    <projectFile>Exercise/Exercise.csproj</projectFile>
+    <projectFile>Exercise2/Exercise2.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e519da38-2f97-453c-b66d-075550ee2152" name="변경" comment="20231028 미로 f">
-      <change afterPath="$PROJECT_DIR$/ConsoleApp4/ConsoleApp4.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp4/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp5/ConsoleApp5.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsoleApp5/Program.cs" afterDir="false" />
+    <list default="true" id="e519da38-2f97-453c-b66d-075550ee2152" name="변경" comment="2023 10 31 study">
+      <change afterPath="$PROJECT_DIR$/Exercise/Exercise.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2/Exercise2.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleApp2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleApp2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp2.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp2/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp2/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET 프로젝트.ConsoleApp2">
+  <component name="RunManager" selected=".NET 프로젝트.Exercise2">
     <configuration name="ConsoleApp2" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/ConsoleApp2/bin/Debug/net7.0/ConsoleApp2.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -138,8 +139,46 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Exercise" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Exercise/Exercise.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Exercise2/Exercise2.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue=".NET 프로젝트.ConsoleApp5" />
+      <item itemvalue=".NET 프로젝트.Exercise" />
+      <item itemvalue=".NET 프로젝트.Exercise2" />
       <item itemvalue=".NET 프로젝트.ConsoleApp2" />
       <item itemvalue=".NET 프로젝트.ConsoleApp3" />
       <item itemvalue=".NET 프로젝트.ConsoleApp4" />
@@ -198,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698421559262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2023 10 31 study">
+      <option name="closed" value="true" />
+      <created>1698754037850</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698754037850</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +270,8 @@
     <MESSAGE value="20231026 study" />
     <MESSAGE value="study 20231027 night home" />
     <MESSAGE value="20231028 미로 f" />
-    <option name="LAST_COMMIT_MESSAGE" value="20231028 미로 f" />
+    <MESSAGE value="2023 10 31 study" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023 10 31 study" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
